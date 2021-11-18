@@ -1,0 +1,10 @@
+backend:
+  name: http://jira.benning.de:7990/scm/btec/benning.git
+  branch: client_1.11 # Branch to update (optional; defaults to master)
+media_folder: '/infofaq/assets/uploads'
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts/'
+    fields:
+      - { name: Title }
